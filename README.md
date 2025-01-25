@@ -5,9 +5,9 @@ A python based financial assistant web application built using the Streamlit lib
 
 This application uses Streamlit as well as a few other tools
 
-Installation:
+Run from source:
 
 ```
-pip install streamlit pandas plotly-express
+pip install -r requirements.txt
+python -m streamlit run main.py
 ```
-The application also uses Sqlite3 for databasing, but it is generally included within Python's default library, so no separate installation is required.
